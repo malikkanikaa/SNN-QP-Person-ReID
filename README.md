@@ -1,4 +1,4 @@
-# SNN-QP: Neurodynamic Spiking Neural Network Quadratic Programming for Person Re-Identification
+<img width="710" height="416" alt="image" src="https://github.com/user-attachments/assets/2f9e71ba-18e9-46f1-8706-d76c9a64fc13" /># SNN-QP: Neurodynamic Spiking Neural Network Quadratic Programming for Person Re-Identification
 
 This repository contains the complete implementation and experimental framework for **Person Re-Identification (Re-ID) Metric Learning** solved via a **Neurodynamic Spiking Neural Network Quadratic Program (SNN-QP)** formulation, evaluated on the **Market-1501** benchmark dataset.
 
@@ -56,8 +56,8 @@ Traditional metric learning formulations (such as Mahalanobis Distance Learning 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/<YOUR_REPOSITORY_NAME>.git
-cd <YOUR_REPOSITORY_NAME>
+git clone https://github.com/malikkanikaa/SNN-QP-Person-ReID.git
+cd SNN-QP-Person-ReID
 ```
 
 ### 2. Create and Activate a Virtual Environment
