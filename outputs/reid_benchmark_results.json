@@ -1,0 +1,79 @@
+[
+  {
+    "Category":"Unweighted Baseline",
+    "Method":"Full-D (d=512)",
+    "Rank-1 (%)":94.36,
+    "Rank-5 (%)":97.83,
+    "Rank-10 (%)":98.6,
+    "Rank-20 (%)":99.23,
+    "mAP (%)":82.55,
+    "Valid Queries":3368,
+    "Eval Time (s)":19.08
+  },
+  {
+    "Category":"Unweighted Baseline",
+    "Method":"Baseline (d=128)",
+    "Rank-1 (%)":94.15,
+    "Rank-5 (%)":97.83,
+    "Rank-10 (%)":98.66,
+    "Rank-20 (%)":99.11,
+    "mAP (%)":82.46,
+    "Valid Queries":3368,
+    "Eval Time (s)":7.4
+  },
+  {
+    "Category":"Metric Learning (Full M)",
+    "Method":"ITML",
+    "Rank-1 (%)":93.59,
+    "Rank-5 (%)":97.65,
+    "Rank-10 (%)":98.46,
+    "Rank-20 (%)":99.14,
+    "mAP (%)":81.99,
+    "Valid Queries":3368,
+    "Eval Time (s)":7.25
+  },
+  {
+    "Category":"Metric Learning (Full M)",
+    "Method":"LMNN",
+    "Rank-1 (%)":64.43,
+    "Rank-5 (%)":80.08,
+    "Rank-10 (%)":85.66,
+    "Rank-20 (%)":89.01,
+    "mAP (%)":38.51,
+    "Valid Queries":3368,
+    "Eval Time (s)":7.34
+  },
+  {
+    "Category":"QP Optimization (Diag M)",
+    "Method":"SciPy SLSQP",
+    "Rank-1 (%)":91.0,
+    "Rank-5 (%)":96.35,
+    "Rank-10 (%)":97.48,
+    "Rank-20 (%)":98.28,
+    "mAP (%)":75.91,
+    "Valid Queries":3368,
+    "Eval Time (s)":7.27
+  },
+  {
+    "Category":"QP Optimization (Diag M)",
+    "Method":"CVXPY OSQP",
+    "Rank-1 (%)":90.94,
+    "Rank-5 (%)":96.2,
+    "Rank-10 (%)":97.51,
+    "Rank-20 (%)":98.28,
+    "mAP (%)":75.81,
+    "Valid Queries":3368,
+    "Eval Time (s)":6.77
+  },
+  {
+    "Category":"QP Optimization (Diag M)",
+    "Method":"SNN-QP",
+    "Rank-1 (%)":90.68,
+    "Rank-5 (%)":96.23,
+    "Rank-10 (%)":97.27,
+    "Rank-20 (%)":98.34,
+    "mAP (%)":75.11,
+    "Valid Queries":3368,
+    "Eval Time (s)":6.91
+  }
+]
